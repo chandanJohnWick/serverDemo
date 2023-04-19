@@ -11,5 +11,5 @@ app.get('/courses',(req,res)=>{
 const port =process.env.PORT || 3000;
 //const port =5000;
 //const port =process.env.PORT || 5000 ;
-app.listen(port,()=>{console.log("listning  on port ${port}...");
+app.listen(port,()=>{console.log(`listning  on port ${port}...`);
 });
