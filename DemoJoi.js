@@ -41,5 +41,5 @@ if(result.error){
 
 const port =process.env.PORT || 3000;
 
-app.listen(port,()=>{console.log("linsting post is  ${port}");
+app.listen(port,()=>{console.log(`linsting post is  ${port}`);
 });
